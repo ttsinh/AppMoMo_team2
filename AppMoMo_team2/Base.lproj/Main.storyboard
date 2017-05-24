@@ -21,6 +21,12 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ywJ-0V-D2T">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Một tin nhắn chứa mã xác thực đã gửi đến 090" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSg-az-3ee">
+                                        <rect key="frame" x="140" y="203" width="320" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzR-hs-0aU">
                                         <rect key="frame" x="180" y="339" width="240" height="30"/>
                                         <color key="backgroundColor" red="0.47450980392156861" green="0.0" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,12 +46,6 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024x1024bb.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHK-hn-s8Q">
-                                        <rect key="frame" x="258" y="78" width="84" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="xOn-Fe-b3N"/>
-                                        </constraints>
-                                    </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Nhập mã xác thực" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y3d-fe-KuY">
                                         <rect key="frame" x="180" y="279" width="240" height="40"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -61,12 +61,12 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Một tin nhắn chứa mã xác thực đã gửi đến 090" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSg-az-3ee">
-                                        <rect key="frame" x="140" y="203" width="320" height="41"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1024x1024bb.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHK-hn-s8Q">
+                                        <rect key="frame" x="258" y="78" width="84" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="xOn-Fe-b3N"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.61960784313725492" green="0.0" blue="0.35294117647058826" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
