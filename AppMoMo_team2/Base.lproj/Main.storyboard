@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,80 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo momo 2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aXg-ld-g4G">
+                                <rect key="frame" x="180" y="36" width="240" height="141"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập lại mật khẩu" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U7o-e8-9Pa">
+                                <rect key="frame" x="175" y="345" width="250" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nhập mật khẩu" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WmI-nF-ReW">
+                                <rect key="frame" x="175" y="291" width="250" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thiết lập mật khẩu để bảo vệ tài khoản ví MoMo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9SB-1V-YoE">
+                                <rect key="frame" x="175" y="214" width="250" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeS-jw-8Zt" customClass="CustomButton" customModule="AppMoMo_team2" customModuleProvider="target">
+                                <rect key="frame" x="175" y="400" width="250" height="30"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="XÁC NHẬN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="momo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Sl8-sW-kki">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WmI-nF-ReW" secondAttribute="trailing" constant="175" id="0TO-Tj-EuP"/>
+                            <constraint firstItem="9SB-1V-YoE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="175" id="8JB-74-o85"/>
+                            <constraint firstItem="Sl8-sW-kki" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="8ch-Sl-7Qh"/>
+                            <constraint firstItem="aXg-ld-g4G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="160" id="Fd9-4q-WdK"/>
+                            <constraint firstItem="U7o-e8-9Pa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="175" id="LkF-iM-ZSQ"/>
+                            <constraint firstItem="aXg-ld-g4G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="M4d-kj-zV3"/>
+                            <constraint firstAttribute="trailing" secondItem="U7o-e8-9Pa" secondAttribute="trailing" constant="175" id="RAQ-9y-TWg"/>
+                            <constraint firstItem="WmI-nF-ReW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="175" id="SGD-I7-XrS"/>
+                            <constraint firstAttribute="trailing" secondItem="QeS-jw-8Zt" secondAttribute="trailing" constant="175" id="SkZ-i9-cHF"/>
+                            <constraint firstAttribute="trailing" secondItem="9SB-1V-YoE" secondAttribute="trailing" constant="175" id="TQo-JS-L3U"/>
+                            <constraint firstItem="QeS-jw-8Zt" firstAttribute="top" secondItem="U7o-e8-9Pa" secondAttribute="bottom" constant="25" id="Uje-C9-BGw"/>
+                            <constraint firstItem="U7o-e8-9Pa" firstAttribute="top" secondItem="WmI-nF-ReW" secondAttribute="bottom" constant="24" id="Ute-J5-FXr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aXg-ld-g4G" secondAttribute="trailing" constant="160" id="V5R-yG-yyr"/>
+                            <constraint firstItem="9SB-1V-YoE" firstAttribute="top" secondItem="aXg-ld-g4G" secondAttribute="bottom" constant="37" id="cw7-DL-NY7"/>
+                            <constraint firstItem="WmI-nF-ReW" firstAttribute="top" secondItem="9SB-1V-YoE" secondAttribute="bottom" constant="36" id="heu-9U-4xH"/>
+                            <constraint firstItem="QeS-jw-8Zt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="175" id="iPs-m1-wCy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sl8-sW-kki" secondAttribute="trailing" constant="-20" id="oBL-wv-JGv"/>
+                            <constraint firstItem="Sl8-sW-kki" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="pez-nF-mjL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sl8-sW-kki" secondAttribute="bottom" id="xtd-Gj-fZD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="570" y="399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo momo 2.jpg" width="142" height="141"/>
+        <image name="momo.jpg" width="271" height="212"/>
+    </resources>
 </document>
