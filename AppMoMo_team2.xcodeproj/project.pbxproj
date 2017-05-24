@@ -14,6 +14,10 @@
 		8A6C8CCD1ECEF46300BA84CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6C8CCB1ECEF46300BA84CF /* LaunchScreen.storyboard */; };
 		8A6C8CD81ECEF46300BA84CF /* AppMoMo_team2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C8CD71ECEF46300BA84CF /* AppMoMo_team2Tests.swift */; };
 		8A6C8CE31ECEF46300BA84CF /* AppMoMo_team2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C8CE21ECEF46300BA84CF /* AppMoMo_team2UITests.swift */; };
+		8A7407331ED2DCF9000AD1DB /* momo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7407321ED2DCF9000AD1DB /* momo.jpg */; };
+		8A7407391ED2DEA4000AD1DB /* logo momo 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7407381ED2DEA4000AD1DB /* logo momo 2.jpg */; };
+		8A74073C1ED2E2A0000AD1DB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74073B1ED2E2A0000AD1DB /* CustomButton.swift */; };
+		8A7A41501ED5805D00048315 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A414F1ED5805D00048315 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		8A6C8CDE1ECEF46300BA84CF /* AppMoMo_team2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMoMo_team2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6C8CE21ECEF46300BA84CF /* AppMoMo_team2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMoMo_team2UITests.swift; sourceTree = "<group>"; };
 		8A6C8CE41ECEF46300BA84CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7407321ED2DCF9000AD1DB /* momo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = momo.jpg; path = ../../../../../Volumes/Data/hinh/momo.jpg; sourceTree = "<group>"; };
+		8A7407381ED2DEA4000AD1DB /* logo momo 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo momo 2.jpg"; path = "../../../../../Volumes/Data/hinh/logo momo 2.jpg"; sourceTree = "<group>"; };
+		8A74073B1ED2E2A0000AD1DB /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = ../../../../../Volumes/Data/Project/Baitap3/Baitap3/CustomButton.swift; sourceTree = "<group>"; };
+		8A7A414F1ED5805D00048315 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		8A6C8CC11ECEF46300BA84CF /* AppMoMo_team2 */ = {
 			isa = PBXGroup;
 			children = (
+				8A74073A1ED2E28B000AD1DB /* custom */,
+				8A74072B1ED2DA94000AD1DB /* bg */,
 				8A6C8CC21ECEF46300BA84CF /* AppDelegate.swift */,
 				8A6C8CC41ECEF46300BA84CF /* ViewController.swift */,
 				8A6C8CC61ECEF46300BA84CF /* Main.storyboard */,
@@ -123,6 +133,24 @@
 				8A6C8CE41ECEF46300BA84CF /* Info.plist */,
 			);
 			path = AppMoMo_team2UITests;
+			sourceTree = "<group>";
+		};
+		8A74072B1ED2DA94000AD1DB /* bg */ = {
+			isa = PBXGroup;
+			children = (
+				8A7407381ED2DEA4000AD1DB /* logo momo 2.jpg */,
+				8A7407321ED2DCF9000AD1DB /* momo.jpg */,
+			);
+			name = bg;
+			sourceTree = "<group>";
+		};
+		8A74073A1ED2E28B000AD1DB /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				8A74073B1ED2E2A0000AD1DB /* CustomButton.swift */,
+				8A7A414F1ED5805D00048315 /* CustomTextField.swift */,
+			);
+			name = custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7407391ED2DEA4000AD1DB /* logo momo 2.jpg in Resources */,
 				8A6C8CCD1ECEF46300BA84CF /* LaunchScreen.storyboard in Resources */,
 				8A6C8CCA1ECEF46300BA84CF /* Assets.xcassets in Resources */,
 				8A6C8CC81ECEF46300BA84CF /* Main.storyboard in Resources */,
+				8A7407331ED2DCF9000AD1DB /* momo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7A41501ED5805D00048315 /* CustomTextField.swift in Sources */,
 				8A6C8CC51ECEF46300BA84CF /* ViewController.swift in Sources */,
 				8A6C8CC31ECEF46300BA84CF /* AppDelegate.swift in Sources */,
+				8A74073C1ED2E2A0000AD1DB /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +516,7 @@
 				8A6C8CE91ECEF46300BA84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6C8CEA1ECEF46300BA84CF /* Build configuration list for PBXNativeTarget "AppMoMo_team2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +525,7 @@
 				8A6C8CEC1ECEF46300BA84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6C8CED1ECEF46300BA84CF /* Build configuration list for PBXNativeTarget "AppMoMo_team2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				8A6C8CEF1ECEF46300BA84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
