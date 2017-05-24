@@ -14,6 +14,7 @@
 		8A6C8CCD1ECEF46300BA84CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6C8CCB1ECEF46300BA84CF /* LaunchScreen.storyboard */; };
 		8A6C8CD81ECEF46300BA84CF /* AppMoMo_team2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C8CD71ECEF46300BA84CF /* AppMoMo_team2Tests.swift */; };
 		8A6C8CE31ECEF46300BA84CF /* AppMoMo_team2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C8CE21ECEF46300BA84CF /* AppMoMo_team2UITests.swift */; };
+		8AA4487A1ED2DF7900352875 /* 1024x1024bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AA448791ED2DF7900352875 /* 1024x1024bb.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8A6C8CDE1ECEF46300BA84CF /* AppMoMo_team2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMoMo_team2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6C8CE21ECEF46300BA84CF /* AppMoMo_team2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMoMo_team2UITests.swift; sourceTree = "<group>"; };
 		8A6C8CE41ECEF46300BA84CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA448791ED2DF7900352875 /* 1024x1024bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1024x1024bb.png; path = ../../../../Downloads/1024x1024bb.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8A6C8CC11ECEF46300BA84CF /* AppMoMo_team2 */ = {
 			isa = PBXGroup;
 			children = (
+				8AA448761ED2DF4500352875 /* images */,
 				8A6C8CC21ECEF46300BA84CF /* AppDelegate.swift */,
 				8A6C8CC41ECEF46300BA84CF /* ViewController.swift */,
 				8A6C8CC61ECEF46300BA84CF /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				8A6C8CE41ECEF46300BA84CF /* Info.plist */,
 			);
 			path = AppMoMo_team2UITests;
+			sourceTree = "<group>";
+		};
+		8AA448761ED2DF4500352875 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8AA448791ED2DF7900352875 /* 1024x1024bb.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA4487A1ED2DF7900352875 /* 1024x1024bb.png in Resources */,
 				8A6C8CCD1ECEF46300BA84CF /* LaunchScreen.storyboard in Resources */,
 				8A6C8CCA1ECEF46300BA84CF /* Assets.xcassets in Resources */,
 				8A6C8CC81ECEF46300BA84CF /* Main.storyboard in Resources */,
@@ -484,6 +496,7 @@
 				8A6C8CE91ECEF46300BA84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6C8CEA1ECEF46300BA84CF /* Build configuration list for PBXNativeTarget "AppMoMo_team2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				8A6C8CEC1ECEF46300BA84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6C8CED1ECEF46300BA84CF /* Build configuration list for PBXNativeTarget "AppMoMo_team2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				8A6C8CEF1ECEF46300BA84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
