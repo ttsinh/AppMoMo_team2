@@ -17,6 +17,7 @@
 		8A7407331ED2DCF9000AD1DB /* momo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7407321ED2DCF9000AD1DB /* momo.jpg */; };
 		8A7407391ED2DEA4000AD1DB /* logo momo 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7407381ED2DEA4000AD1DB /* logo momo 2.jpg */; };
 		8A74073C1ED2E2A0000AD1DB /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74073B1ED2E2A0000AD1DB /* CustomButton.swift */; };
+		8A7A41501ED5805D00048315 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7A414F1ED5805D00048315 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8A7407321ED2DCF9000AD1DB /* momo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = momo.jpg; path = ../../../../../Volumes/Data/hinh/momo.jpg; sourceTree = "<group>"; };
 		8A7407381ED2DEA4000AD1DB /* logo momo 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo momo 2.jpg"; path = "../../../../../Volumes/Data/hinh/logo momo 2.jpg"; sourceTree = "<group>"; };
 		8A74073B1ED2E2A0000AD1DB /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = ../../../../../Volumes/Data/Project/Baitap3/Baitap3/CustomButton.swift; sourceTree = "<group>"; };
+		8A7A414F1ED5805D00048315 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				8A74073B1ED2E2A0000AD1DB /* CustomButton.swift */,
+				8A7A414F1ED5805D00048315 /* CustomTextField.swift */,
 			);
 			name = custom;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7A41501ED5805D00048315 /* CustomTextField.swift in Sources */,
 				8A6C8CC51ECEF46300BA84CF /* ViewController.swift in Sources */,
 				8A6C8CC31ECEF46300BA84CF /* AppDelegate.swift in Sources */,
 				8A74073C1ED2E2A0000AD1DB /* CustomButton.swift in Sources */,
